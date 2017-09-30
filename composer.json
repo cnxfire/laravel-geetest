@@ -1,0 +1,26 @@
+{
+    "name": "cnxfire/laravel-geetest",
+    "description": "Geetest Package for Laravel5",
+    "type": "project",
+    "require": {
+        "php": ">=7.0",
+        "laravel/framework": "5.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.1",
+        "mockery/mockery": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cnxfire\\Geetest\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cnxfire",
+            "email": "cnxfire@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
