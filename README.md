@@ -22,13 +22,13 @@ For Geetest 2.0, please see [LaravelGeetest 2.0](https://github.com/Germey/Larav
 To get the latest version of Laravel Geetest, simply require the project using Composer:
 
 ```
-$ composer require germey/geetest
+$ composer require cnxfire/laravel-geetest
 ```
 
 Or you can add following to `require` key in `composer.json`:
 
 ```json
-"germey/geetest": "~3.0"
+"cnxfire/laravel-geetest": "^1.0"
 ```
 
 then run:
@@ -40,13 +40,13 @@ $ composer update
 Next, You should need to register the service provider. Open up `config/app.php` and add following into the `providers` key:
 
 ```php
-Germey\Geetest\GeetestServiceProvider::class
+Cnxfire\Geetest\GeetestServiceProvider::class
 ```
 
 And you can register the Geetest Facade in the `aliases` of `config/app.php` :
 
 ```php
-'Geetest' => Germey\Geetest\Geetest::class
+'Geetest' => Cnxfire\Geetest\Geetest::class
 ```
 
 ## Configuration
